@@ -1,8 +1,9 @@
 {
+  "homepage": "https://rakesh-rk-v.github.io/rakeshvendrapati.github.io/",
   "name": "sign-in-with-google",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/rakesh-rk-v/rakeshvendrapati.github.io/",
+  
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
     "@testing-library/jest-dom": "^5.17.0",
