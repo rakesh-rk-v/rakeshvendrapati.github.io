@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import {GoogleLogin} from '@react-oauth/google';
+import './App.css'
+
 
 function App() {
+  const successMessage = (response) => {
+    console.log('Sucess Message : '+JSON.stringify(response));
+  };
+  const errorMessage = (response) => {
+    console.log('ERROR-RESPONSE : '+response);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+    <h1 className='title'>SIGN IN WITH GOOGLE ACCOUNT</h1>
+    <GoogleLogin onSuccess={successMessage} onError={errorMessage}></GoogleLogin>
     </div>
-  );
+  )
 }
 
 export default App;
