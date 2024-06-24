@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rakesh-rk-v/rakeshvendrapati.github.io/static/css/main.09a99711.css",
+    "main.js": "/rakesh-rk-v/rakeshvendrapati.github.io/static/js/main.ab9f5d3f.js",
+    "static/js/453.2843c863.chunk.js": "/rakesh-rk-v/rakeshvendrapati.github.io/static/js/453.2843c863.chunk.js",
+    "index.html": "/rakesh-rk-v/rakeshvendrapati.github.io/index.html",
+    "main.09a99711.css.map": "/rakesh-rk-v/rakeshvendrapati.github.io/static/css/main.09a99711.css.map",
+    "main.ab9f5d3f.js.map": "/rakesh-rk-v/rakeshvendrapati.github.io/static/js/main.ab9f5d3f.js.map",
+    "453.2843c863.chunk.js.map": "/rakesh-rk-v/rakeshvendrapati.github.io/static/js/453.2843c863.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a99711.css",
+    "static/js/main.ab9f5d3f.js"
+  ]
+}
